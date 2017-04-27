@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+html
+{
+	height: 100%;
+}
+body
+{
+
+	background:#2d2d2d;
+	margin:0;
+	font-family: Montserrat;
+	height: 100%;
+}
+
+#container
+{
+	
+	margin:20px auto;
+	max-width: 600px;
+
+}
+
+.square
+{
+	width: 30%;
+	height: 45%;
+	float:left;
+	background:red;
+	margin:1%;
+	padding-bottom: 30%;
+	border-radius: 15px;
+	transition: background 0.4s linear;
+	
+}
+
+
+
+h1
+{
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 10px 0px;
+}
+
+#message
+{
+	
+	text-align: center;
+	display: inline-block;
+	width: 20%;
+	
+}
+
+#stripe
+{
+	width: 100%;
+	height: 30px;
+	background: white;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+
+}
+
+#colorDisplay
+{
+	font-size: 200%;
+}
+
+.selected
+{
+	background: steelblue;
+	color:white;
+}
+
+button, #reset
+{
+	border-style: none;
+	height: 100%;
+	color: steelblue;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: bold;
+	background:white;
+	text-transform: uppercase;
+	transition: all 0.4s 0s linear;
+	padding: 0px 8px;
+	outline: none;
+}
+
+
+
+button:hover, #reset:hover
+{
+	background: steelblue;
+	color:white;
+	transition: all 0.4s 0s linear;
+}
